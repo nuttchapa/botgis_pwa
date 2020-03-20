@@ -12,11 +12,11 @@ require_once('LINEBotTiny.php');
 $api_key = "xxxxxxxxxxxxxxxxxxxxxxxxxxxx";
 
 //line
-$channelAccessToken = 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx';
-$access_token = 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx';
+$channelAccessToken = 'VBlNstn/bRDhYkToOJA53yMWocDXdVAHB6sPR6KFjCdJm8wq2n/mDOd/bXCbUUncHvrT4A0Zp7KsXfiwRc/R5svx1kv0fT5KjdvAyJWotodNum8RkZjwc2b8xiqkrs/AF4gZktxWZLhc3cnq1neHlwdB04t89/1O/w1cDnyilFU=';
+$access_token = 'VBlNstn/bRDhYkToOJA53yMWocDXdVAHB6sPR6KFjCdJm8wq2n/mDOd/bXCbUUncHvrT4A0Zp7KsXfiwRc/R5svx1kv0fT5KjdvAyJWotodNum8RkZjwc2b8xiqkrs/AF4gZktxWZLhc3cnq1neHlwdB04t89/1O/w1cDnyilFU=';
 
 //line
-$channelSecret = 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx';
+$channelSecret = 'fa26a96d96003919f5428b1e463d1d58';
 
 $client = new LINEBotTiny($channelAccessToken, $channelSecret);
 $botName = "BOT";
