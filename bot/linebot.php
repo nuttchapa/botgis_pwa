@@ -37,7 +37,7 @@ function get_url($urllink) {
 
 function get_profile($fullurl) 
 {
-        $channelAccessToken2 = RqGsaMk5rfjR/CHRxxQ+8n9i9NSbDd70bpVx62FFK7njcCnsE7xXGEuqpyQjJhOKHvrT4A0Zp7KsXfiwRc/R5svx1kv0fT5KjdvAyJWotoekcb4Dq51eJJUXyo5qQw/wF1gg0INB1AIDgemH0I7kdwdB04t89/1O/w1cDnyilFU=;
+        $channelAccessToken2 = 'RqGsaMk5rfjR/CHRxxQ+8n9i9NSbDd70bpVx62FFK7njcCnsE7xXGEuqpyQjJhOKHvrT4A0Zp7KsXfiwRc/R5svx1kv0fT5KjdvAyJWotoekcb4Dq51eJJUXyo5qQw/wF1gg0INB1AIDgemH0I7kdwdB04t89/1O/w1cDnyilFU=';
  
         $header = array(
             "Content-Type: application/json",
@@ -412,7 +412,7 @@ function replyMsg($event, $client)
  
 						$id = $event['source']['userId'];
                         $urlp = 'https://api.line.me/v2/bot/profile/'.$id;
-                        $channelAccessToken2 = RqGsaMk5rfjR/CHRxxQ+8n9i9NSbDd70bpVx62FFK7njcCnsE7xXGEuqpyQjJhOKHvrT4A0Zp7KsXfiwRc/R5svx1kv0fT5KjdvAyJWotoekcb4Dq51eJJUXyo5qQw/wF1gg0INB1AIDgemH0I7kdwdB04t89/1O/w1cDnyilFU=;
+                        $channelAccessToken2 = 'RqGsaMk5rfjR/CHRxxQ+8n9i9NSbDd70bpVx62FFK7njcCnsE7xXGEuqpyQjJhOKHvrT4A0Zp7KsXfiwRc/R5svx1kv0fT5KjdvAyJWotoekcb4Dq51eJJUXyo5qQw/wF1gg0INB1AIDgemH0I7kdwdB04t89/1O/w1cDnyilFU=';
  
                         $header = array(
                             "Content-Type: application/json",
@@ -573,7 +573,7 @@ function replyMsg($event, $client)
                     if ($ty == 'user'){
  
                         $url = 'https://api.line.me/v2/bot/profile/'.$uid;
-                        $channelAccessToken2 = RqGsaMk5rfjR/CHRxxQ+8n9i9NSbDd70bpVx62FFK7njcCnsE7xXGEuqpyQjJhOKHvrT4A0Zp7KsXfiwRc/R5svx1kv0fT5KjdvAyJWotoekcb4Dq51eJJUXyo5qQw/wF1gg0INB1AIDgemH0I7kdwdB04t89/1O/w1cDnyilFU=;
+                        $channelAccessToken2 = 'RqGsaMk5rfjR/CHRxxQ+8n9i9NSbDd70bpVx62FFK7njcCnsE7xXGEuqpyQjJhOKHvrT4A0Zp7KsXfiwRc/R5svx1kv0fT5KjdvAyJWotoekcb4Dq51eJJUXyo5qQw/wF1gg0INB1AIDgemH0I7kdwdB04t89/1O/w1cDnyilFU=';
  
                         $header = array(
                             "Content-Type: application/json",
@@ -646,7 +646,7 @@ function replyMsg($event, $client)
  
                         $url = 'https://api.line.me/v2/bot/group/'.$gid.'/member/'.$uid;
                         //$url = 'https://api.line.me/v2/bot/profile/'.$uid;
-                        $channelAccessToken2 = RqGsaMk5rfjR/CHRxxQ+8n9i9NSbDd70bpVx62FFK7njcCnsE7xXGEuqpyQjJhOKHvrT4A0Zp7KsXfiwRc/R5svx1kv0fT5KjdvAyJWotoekcb4Dq51eJJUXyo5qQw/wF1gg0INB1AIDgemH0I7kdwdB04t89/1O/w1cDnyilFU=;
+                        $channelAccessToken2 = 'RqGsaMk5rfjR/CHRxxQ+8n9i9NSbDd70bpVx62FFK7njcCnsE7xXGEuqpyQjJhOKHvrT4A0Zp7KsXfiwRc/R5svx1kv0fT5KjdvAyJWotoekcb4Dq51eJJUXyo5qQw/wF1gg0INB1AIDgemH0I7kdwdB04t89/1O/w1cDnyilFU=';
  
                         $header = array(
                             "Content-Type: application/json",
